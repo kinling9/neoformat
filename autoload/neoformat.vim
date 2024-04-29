@@ -231,6 +231,7 @@ endfunction
 
 function! s:generate_cmd(definition, filetype) abort
     let executable = get(a:definition, 'exe', '')
+    let filetype = s:split_filetypes(&filetype)
     if executable == ''
         call neoformat#utils#log('no exe field in definition')
         return {}
@@ -276,7 +277,7 @@ function! s:generate_cmd(definition, filetype) abort
     if get(a:definition, 'replace', 0)
         let path = !using_stdin ? expand(tmp_dir . '/' . fnameescape(filename), 1) : ''
     else
-        let path = !using_stdin ? tempname() : ''
+        let path = !using_stdin ? join([tempname(), filetype], ".") : ''
     endif
 
     let inline_environment = get(a:definition, 'env', [])
