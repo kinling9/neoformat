@@ -274,6 +274,8 @@ SUPPORTED FILETYPES				*neoformat-supported-filetypes*
   - [mix format](https://hexdocs.pm/mix/master/Mix.Tasks.Format.html)
 - Elm
   - [`elm-format`](https://github.com/avh4/elm-format)
+- Eruby
+  - [`htmlbeautifier`](https://github.com/threedaymonk/htmlbeautifier)
 - Erlang
   - [`erlfmt`](https://github.com/WhatsApp/erlfmt)
 - Fish
@@ -503,6 +505,9 @@ SUPPORTED FILETYPES				*neoformat-supported-filetypes*
     [`clang-format`](http://clang.llvm.org/docs/ClangFormat.html),
     [`deno fmt`](https://deno.land/manual/tools/formatter),
     [`biome`](https://biomejs.dev)
+- Typst
+  - [`typstfmt`](https://github.com/astrale-sharp/typstfmt)
+    [`typstyle`](https://github.com/Enter-tainer/typstyle)
 - Toml
   - [`taplo`](https://taplo.tamasfe.dev/cli/usage/formatting.html),
     [`topiary`](https://topiary.tweag.io)

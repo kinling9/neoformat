@@ -290,6 +290,8 @@ that caused Neoformat to be invoked.
   - [`mix format`](https://hexdocs.pm/mix/master/Mix.Tasks.Format.html)
 - Elm
   - [`elm-format`](https://github.com/avh4/elm-format)
+- Eruby
+  - [`htmlbeautifier`](https://github.com/threedaymonk/htmlbeautifier)
 - Erlang
   - [`erlfmt`](https://github.com/WhatsApp/erlfmt)
 - Fennel
@@ -545,6 +547,9 @@ that caused Neoformat to be invoked.
     [`clang-format`](http://clang.llvm.org/docs/ClangFormat.html),
     [`deno fmt`](https://deno.land/manual/tools/formatter),
     [`biome format`](https://biomejs.dev)
+- Typst
+  - [`typstfmt`](https://github.com/astrale-sharp/typstfmt)
+    [`typstyle`](https://github.com/Enter-tainer/typstyle)
 - V
   - `v fmt` (ships with [`v`](https://vlang.io))
 - VALA
